@@ -83,8 +83,11 @@ Create a .env.local file:
 6.  Future Enhancements
 
 • User authentication (NextAuth)
+
 • Save user preferences to database
+
 • More content types (TV, Podcasts, etc.)
+
 • Improved accessibility and animations
 
 📜 License
