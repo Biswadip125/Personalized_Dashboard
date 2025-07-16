@@ -80,7 +80,7 @@ Create a .env.local file:
   /public
   /styles
   ````
-6.  Future Enhancements
+## 6.  Future Enhancements
 
 • User authentication (NextAuth)
 
@@ -90,7 +90,7 @@ Create a .env.local file:
 
 • Improved accessibility and animations
 
-📜 License
+## 📜 License
 
 • This project is licensed under the MIT License.
 
