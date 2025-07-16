@@ -80,7 +80,7 @@ Create a .env.local file:
   /public
   /styles
   ````
-## 6.  Future Enhancements
+6.  Future Enhancements
 
 • User authentication (NextAuth)
 
