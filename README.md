@@ -61,16 +61,19 @@ A full-featured media dashboard that allows users to explore trending movies, ne
   ```bash
   npm install
   ```
+
 3. Add Environment Variables
 Create a .env.local file:
   ````bash
   TMDB_API_KEY=your_tmdb_api_key
   NEWSDATA_API_KEY=your_newsdata_api_key
   ````
+
 4. Run the development server
   ```bash
   npm run dev
   ```
+
 5. Folder Structure (Simplified)
   ```bash
   /app
@@ -80,6 +83,7 @@ Create a .env.local file:
   /public
   /styles
   ````
+
 6. Future Enhancements
 
 • User authentication (NextAuth)
@@ -94,7 +98,7 @@ Create a .env.local file:
 
 • This project is licensed under the MIT License.
 
-🙌 Acknowledgments
+## 🙌 Acknowledgments
 
 • TMDB API
 
