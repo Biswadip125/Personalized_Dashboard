@@ -1,0 +1,32 @@
+export const mockSocialPosts = [
+  {
+    id: "1",
+    username: "John Doe",
+    handle: "@johndoe",
+    avatar: "/avatars/user1.png",
+    content: "Tesla stock going crazy again! 🚗📈",
+    hashTags: ["#Tesla"],
+    createdAt: "2025-07-13T10:00:00Z",
+    platform: "twitter",
+  },
+  {
+    id: "2",
+    username: "Jane Smith",
+    handle: "@janesmith",
+    avatar: "/avatars/user2.png",
+    content: "Just watched the new Karate Kid. 🔥 Totally recommend it!",
+    hashTags: ["#movies"],
+    createdAt: "2025-07-13T11:30:00Z",
+    platform: "instagram",
+  },
+  {
+    id: "3",
+    username: "Crypto King",
+    handle: "@cryptoking",
+    avatar: "/avatars/user3.png",
+    content: "Bitcoin is bouncing back again! 🚀",
+    hashTags: ["#crypto"],
+    createdAt: "2025-07-13T09:20:00Z",
+    platform: "twitter",
+  },
+];
