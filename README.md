@@ -81,15 +81,18 @@ Create a .env.local file:
   /styles
   ````
 6.  Future Enhancements
+
 • User authentication (NextAuth)
 • Save user preferences to database
 • More content types (TV, Podcasts, etc.)
 • Improved accessibility and animations
 
 📜 License
+
 • This project is licensed under the MIT License.
 
 🙌 Acknowledgments
+
 • TMDB API
 
 • NewsData.io API
