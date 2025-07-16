@@ -81,8 +81,8 @@ const TrendingPageContent = () => {
               disabled={currentPage === 1}
               className={`px-4 py-2 ${
                 isDark
-                  ? "bg-gray-200 hover:bg-gray-300 "
-                  : "bg-gray-600 hover:bg-gray-700"
+                  ? "bg-gray-600 hover:bg-gray-500 text-white"
+                  : "bg-gray-200 hover:bg-gray-300 "
               } rounded  disabled:opacity-50 cursor-pointer`}
             >
               Prev
@@ -92,8 +92,8 @@ const TrendingPageContent = () => {
               onClick={() => setCurrentPage((p) => p + 1)}
               className={`px-4 py-2 ${
                 isDark
-                  ? "bg-gray-200 hover:bg-gray-300 "
-                  : "bg-gray-600 hover:bg-gray-700"
+                  ? "bg-gray-600 hover:bg-gray-500 text-white"
+                  : "bg-gray-200 hover:bg-gray-300 "
               }  rounded cursor-pointer`}
             >
               Next
