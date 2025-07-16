@@ -16,17 +16,23 @@ A full-featured media dashboard that allows users to explore trending movies, ne
   - Movies (from TMDB)
   - News (from NewsData.io)
   - Posts (static or extendable)
+    
 - 📚 Categories & Filters
   - News filtered by user-selected categories
+    
 - 🌗 Dark Mode
   - Fully responsive theme toggle using Redux state
+    
 - 💾 Favorites
   - Add/remove favorite movies and news
+    
 - 📥 Search with Debounce
   - Fast and smooth movie search experience
+    
 - 🔁 Pagination
   - Movies: page-based
   - News: next-page based
+    
 - ⚙️ Settings
   - Choose preferred news categories
 
