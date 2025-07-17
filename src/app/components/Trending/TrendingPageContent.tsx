@@ -29,7 +29,7 @@ const TrendingPageContent = () => {
   );
   const trendingRef = useRef<HTMLDivElement | null>(null);
   const theme = useSelector((store: RootState) => store.uiPreferences.theme);
-  const isDark = theme === " dark";
+  const isDark = theme === "dark";
 
   useEffect(() => {
     const fetchTrendingContents = async () => {
