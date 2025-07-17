@@ -1,6 +1,7 @@
 import { SocialPost } from "@/app/types/types";
 import React from "react";
 import { useSelector } from "react-redux";
+import { RootState } from "@/app/lib/store/store";
 
 const SocialMediaCard = ({
   socialMediaPost,
