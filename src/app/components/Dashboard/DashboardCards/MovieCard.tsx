@@ -31,7 +31,7 @@ const MovieCard = ({ movieData }: { movieData: movieData }) => {
       <Image
         src={`https://image.tmdb.org/t/p/w500${movieData.poster_path}`}
         alt={movieData.title}
-        width={300}
+        width={500}
         height={300}
         className="rounded-xl object-cover"
       />
