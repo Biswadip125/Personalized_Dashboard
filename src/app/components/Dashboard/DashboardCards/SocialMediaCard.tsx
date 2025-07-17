@@ -6,6 +6,9 @@ const SocialMediaCard = ({
 }: {
   socialMediaPost: SocialPost;
 }) => {
+const theme = useSelector((store: RootState) => store.uiPreferences.theme);
+  const isDark = theme === "dark";
+
   return (
    <div
       className={`flex flex-col gap-2 p-4 rounded-2xl ${
